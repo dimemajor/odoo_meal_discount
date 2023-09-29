@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+<data>
+    <record id="coupon_program_view_promo_program_form_extend" model="ir.ui.view">
+        <field name="name">coupon.promotion.program.form.extend</field>
+        <field name="model">coupon.program</field>
+        <field name="inherit_id" ref="coupon.coupon_program_view_form_common"/>
+        <field name="arch" type="xml">
+            <xpath expr="//field[@name='company_id']" position="after">
+                <field name="is_meal_program"/>
+            </xpath>
+        </field>
+    </record>
+</data>
+</odoo>

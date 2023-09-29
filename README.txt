@@ -1,0 +1,1 @@
+Meal discount program for each employee. Each employee should have a meal discount that can be used once a day and not carried over to the next day

@@ -1,0 +1,12 @@
+<data>
+   <record id="ir_cron_scheduler_recurring_action" model="ir.cron">
+       <field name="name">Meal Discount Reset</field>
+       <field name="model_id" ref="model_coupon_program"/>
+       <field name="state">code</field>
+       <field name="code">model.cron_reset_discount_period()</field>
+       <field name="user_id" ref="base.user_root"/>
+       <field name="interval_number">1</field>
+       <field name="interval_type">days</field>
+       <field name="numbercall">-1</field>
+   </record>
+</data>
